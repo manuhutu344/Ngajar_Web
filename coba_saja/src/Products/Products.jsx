@@ -8,13 +8,13 @@ function Products() {
     <>
     <section className="card-container">
       <section className="card">
-        <img src="httpBsFillBagHeartFills://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg" alt="Sepatu" />
+        <img src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg" alt="Sepatu" />
         <div className="card-details">
           <h3 className="card-title">
             Sepatu
           </h3>
           <section className="card-reviews">
-            <AiFillStar className="rating-star" />  <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />  <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" /> <AiFillStar className="rating-star" />
             <span className="total-reviews">
               4
             </span>
@@ -31,7 +31,7 @@ function Products() {
             </div>
           </section>
         </div>
-      </section>
+      </section> 
     </section>
     </>
   )
